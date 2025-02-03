@@ -1,0 +1,42 @@
+/*
+background-color: #f2f2f2;
+background-clip:content-box;
+border:1px solid red;
+*/
+
+.main-nav {
+    display:flex;
+    justify-content:space-between;
+    padding:1rem 5%;
+    background-color:rgb(211, 209, 209);
+    
+  }
+  .nav-brand{
+    display:flex;
+    align-items:center;
+    font-size:1.2rem;
+    font-weight:bold;
+  }
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+  }
+  .nav-links li{
+    list-style: none;
+  }
+  .nav-links a{
+    text-decoration: none;
+  }
+  .hamburger { display: none }
+  
+  @media (max-width: 600px) {
+    .nav-links {
+      position: fixed;
+      top: 60px;
+      right: -100%;/*右侧边缘在浏览器右侧一个页面宽度*/
+      flex-direction: column;
+      background: white;
+      transition: right 0.3s;
+    }
+    .hamburger { display: block; }
+  }
