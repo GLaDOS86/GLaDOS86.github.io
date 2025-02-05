@@ -5,25 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mainPage</title>
     <link rel="stylesheet" href="./css/index.css">
-</head>
+    <script src="script.js"></script>
+  </head>
 <body>
+ 
    <!-- index.html -->
 <nav class="main-nav">
     <div class="nav-brand">My Portfolio</div>
     <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="./content/home.html">Home</a></li>
+      <li><a href="./content/Gallery.html">Gallery</a></li>
     </ul>
     <div class="hamburger">☰</div>
 </nav>
-<p class="class">这是首页</p>
-<script>
-  document.querySelector('.hamburger').addEventListener('click', () => {
-  const nav = document.querySelector('.nav-links');
-  nav.style.right = 
-    nav.style.right === '0px' ? '-100%' : '0px';
-});
-</script>
-</script>
+
+<div class="content full">
+  <iframe src="./content/home.html">
+    您的浏览器不支持 iframe 标签。
+  </iframe>
+</div>
+<div class="foot full">
+  <p>© 2021 My Portfolio. All rights reserved.</p>
+</div>
 </body>
 </html>
