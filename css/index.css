@@ -3,7 +3,10 @@ background-color: #f2f2f2;
 background-clip:content-box;
 border:1px solid red;
 */
-
+/*导航栏*/
+html{
+    box-sizing: border-box;
+}
 .main-nav {
     display:flex;
     justify-content:space-between;
@@ -40,3 +43,8 @@ border:1px solid red;
     }
     .hamburger { display: block; }
   }
+
+
+/*主页面*/
+ 
+/*附加信息栏*/
