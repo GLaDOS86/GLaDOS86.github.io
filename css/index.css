@@ -27,8 +27,12 @@ html{
   .nav-links li{
     list-style: none;
   }
-  .nav-links a{
+.nav-link{
     text-decoration: none;
+    background-color: wheat;
+    padding: 0.5rem;
+    border:0.1rem solid black;
+    margin: 0.2rem 0rem;
   }
   .hamburger { display: none }
   

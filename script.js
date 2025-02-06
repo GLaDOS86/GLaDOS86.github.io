@@ -13,7 +13,6 @@ var hamburger = document.querySelector(".hamburger");
 
     //事件监听
 document.querySelector('#home-link').addEventListener('click', function(event){
-
   event.preventDefault();
   ChangeIframeUrl('./content/home.html');
 
